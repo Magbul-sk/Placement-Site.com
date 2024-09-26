@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> SubjectiveTopics | PLACEMENT_SITE</title>
+  <link rel="shortcut icon" href="img/L-earn-logo.jpg">
+  <link rel="stylesheet" href="StylesheetFolder/ProgrammingLanguages.css">
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <label for="#" class="home-icon"><a href="index.html#courses-link"> <img src="img/home icon.png"
+          alt="home icon" width="4%" height="20px"></a></label>
+
+    <ul>
+      <li></li>
+      <li><a href="#" class="c-active">OOPS </a></li>
+      <li><a href="#">DBMS</a></li>
+      <li><a href="#">Networking</a></li>
+      <li><a href="#">O.S</a></li>
+    </ul>
+  </nav>
+ 
+
+  <aside class="aside-content">
+    <a href="#intro">
+      <h3>Introduction</h3>
+    </a>
+    <a href="#var">
+      <h3>Variables, Data_types, Keywords, Comments</h3>
+    </a>
+    <a href="#ope">
+      <h3>Operators</h3>
+    </a>
+    <a href="#con">
+      <h3>Conditions</h3>
+    </a>
+    <a href="#loop">
+      <h3>Loops / Iterators</h3>
+    </a>
+    <a href="#poin">
+      <h3>Pointers</h3>
+    </a>
+    <a href="#fun">
+      <h3>Functions & Recursion</h3>
+    </a>
+    <a href="#arr">
+      <h3>Arrays</h3>
+    </a>
+    <a href="#str">
+      <h3>Strings</h3>
+    </a>
+    <a href="#stru">
+      <h3>Structures</h3>
+    </a>
+    <a href="#file">
+      <h3>Files</h3>
+    </a>
+    <a href="#dyn">
+      <h3>Dynamic memory allocation</h3>
+    </a>
+  </aside>
+  <div class="c-language">
+    <h2 id="intro">Introduction</h2>
+    <p>
+    <ul>
+      <li>Invented in the year 1972</li>
+      <li>By Dennis riche <abbr title="DENNIS MAC ALISTER RICHEI">DMR</abbr> at Bell laboratories USA</li>
+      <li>It is named as C ,because it is invented after language B</li>
+      <li> It is used to build O.S , Games , electronics devices programs</li>
+    </ul>
+
+    <ul type="square">
+      <li><span>ALGORITHM</span> - Step by step process</li>
+      <li><span>FLOWCHART</span> - Diagramatic representation of Algorithm</li>
+      <li><span>PSUEDOCODE</span> - informal representation of Algorithm</li>
+      <li> <span>COMPILER</span> - Converts High level language to Low level language</li>
+    </ul>
+    <br><br><br>
+    <h2 id="var">Variables, Data_types, Keywords, Comments</h2>
+
+    <span>VARIABLE </span> - is nothing but a name of a memory location wher we store data in it
+
+    <span>RULES TO WRITE VARIABLE</span>
+    <ul>
+      <li>underscore</li>
+      <li>no comma or blank space not allowed</li>
+      <li>it is Case sensitive</li>
+      <li>not start with digits , and special symbols</li>
+    </ul>
+
+    <span>KEYWORDS </span> - which has a predefiend meaning to the compiler
+    In C we are having 32 keywords
+    <span>RULES</span>
+    We should not use keywords as variables <br>
+    <span>Comment</span>
+    .Single line //
+    .Multi line /* */ <br>
+
+    <span>DATA_TYPE </span> - the type which we are going to store
+    <ul>
+      <li>
+        Basic Data Type
+        <ol type="i">
+          <li>Int</li>
+          <li>Float</li>
+          <li>Char</li>
+          <li>Double</li>
+        </ol>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        Derived Data Type
+        <ol type="i">
+          <li>Array</li>
+          <li>Pointers</li>
+          <li>String</li>
+          <li>Structure</li>
+          <li>Union
+          </li>
+        </ol>
+      </li>
+      <li>Void Data Type - NULL</li>
+      <li>Enum Data Type</li>
+    </ul>
+    </p>
+    <br><br><br>
+    <h2 id="ope">Operators</h2>
+
+    <p>
+    <ol>
+      <li>ARITHMETIC OPERATORS</li>+ - * / %
+      <li>ASSIGNMENT/ RELATIONAL OPERATOR</li> += -= *= /= %=
+      <li>LOGICAL OPERATOR</li> && || !
+      <li>BITWISE OPERATOR</li> & | ~ ^
+      <li>INCREMENT , DECREMENT</li> I++ I-- ++I --I
+      <li>TERNARY OPERATOR</li> Condition ? Expression1 : Expression2
+      <li>CONDITIONAL OPERATOR</li> == != > >= < <=</ol>
+        </p>
+        <br><br><br>
+        <h2 id="con">Conditions</h2>
+        <pre>
+
+  if(condition){
+    //Statement;
+    }
+
+
+    if(condition){
+    //Statement;
+    }
+    else{
+    //Statement;
+    }
+
+
+    if(condition){
+    //Statement;
+    }
+    else if{
+    //Statement;
+    }
+    else if(condition){
+    //Statement;
+    }
+    else{
+    //Statement;
+    }
+
+
+    <span>NESTED IF ELSE CONDITION</span>
+
+    if(condition){
+    //Statement;
+    if(condition){
+    //Statement;
+    }
+    else{
+    //Statement;
+    }
+    }
+    else{
+    //Statement;
+    }
+
+    
+
+</pre>
+        <span>SWITCH</span>
+
+        <pre>
+      switch(variable)
+    {
+    case 1 or 'a': // statement; break;
+    case 2 or 'b': // statement; break;
+    case 3 or 'c': // statement; break;
+    default : //statement;
+    }
+    </pre>
+        <br><br><br>
+        <h2 id="loop">Loops</h2>
+
+        <span>LOOPS</span> - Which is used to repeat the task until the condition is false is known as loops / iteration
+        <br>
+
+        <span>FOR LOOP :</span><br>
+
+        <span> WHILE LOOP :</span><br>
+
+        <span>DO WHILE LOOP :</span><br>
+
+        <span>break;</span> - it will stop and exit the loop <br>
+        <span>Continue;</span> - it will skip that one condition and continues <br>
+
+        <br><br><br>
+        <h2 id="poin">Pointers</h2>
+
+        <p>
+          <span>POINTER</span> - Pointer is nothing but a variable which holds the address of another variable <br>
+          -> Formate Specifier is %p to print the address <br><br>
+
+          int a = 10; <br>
+          Int *ptr = &a; <br>
+          Int **pointer = &ptr; <br> <br>
+
+          ptr store the address of variable a <br>
+          *ptr stores the value of a <br>
+          pointer stores the address of ptr <br>
+          **pointer stores the value of a <br>
+
+        </p>
+        <br><br><br>
+        <h2 id="fun">Functions & Recursion</h2>
+
+        <p>
+          <span>FUNCTIONS </span> - a block of code which is used to perform a particular task by calling it <br>
+          -> USE - No need to ✍️ the same code , instead of that simply call it when ever we need <br><br><br>
+
+
+
+          <span> PARAMETERS </span> - the copy of arguments <br>
+          <span> ARGUMENTS</span> - the values which are passed in main function <br><br>
+
+          >>Parameters are the copy of arguments, if we change the values in it means ,it won't changes <br> <br>
+
+          TWO TYPES : <br>
+
+          <span>CALL BY VALUE</span> <br><br>
+
+          with return type and parameters <br>
+          without return type and parameters <br>
+          with return type and without parameters <br>
+          without return type and with parameters <br>
+
+          <span>CALL BY REFERENCE</span> <br><br>
+
+          Here we are passing the address , it is not copy of arguments, if we change the values in that function means
+          it will change <br><br>
+
+          <span>RECURTION</span> - calling by it self is known as Recurtion <br>
+
+          >EX: climbing the steps , we need to write code for one step only remaining it will take care <br>
+
+        </p>
+        <br><br><br>
+        <h2 id="arr">Arrays</h2>
+
+        <p>
+          <span>ARRAY</span> - is nothing but a continuous memory allocation of similar data_type <br>
+          >> Index start with 0 <br>
+
+          >> Instead of creating n no of variables , just creat an array in one line syntax <br><br>
+
+          int arr[size]; <br>
+          int arr[] = {'0','1','2','3','4'}; <br>
+          int arr[5] = {'0','1','2','3','4'}; <br>
+        </p>
+
+        <br><br><br>
+        <h2 id="str">Strings</h2>
+
+        <p>
+          <span> STRING</span> - is nothing but 1 dimension character array with null character at end \0 <br><br>
+          Char str[]={'m','a','g','b','u','l','\0'}; <br>
+          Char str[]="magbul"; <br>
+          >Here it will automatically adds null char <br><br>
+
+          Char *ptr="magbul basha";<br>
+          Printf("formate Specifier is %s \n",ptr);<br>
+        </p>
+        <br><br><br>
+        <h2 id="stru">Structures</h2>
+        <br><br><br>
+        <h2 id="file">Files</h2>
+        <br id="dyn"><br><br>
+        <h2>Dynamic memory allocation</h2>
+
+  </div>
+
+</body>
+
+</html>

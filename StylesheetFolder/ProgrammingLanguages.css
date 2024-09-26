@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+
+.nav-bar {
+
+    background-color: rgb(2, 2, 31);
+    width: 100%;
+    height: 70px;
+    line-height: 50px;
+    box-shadow: 3px 3px 3px rgb(2, 2, 31);
+    position:fixed;
+}
+
+.nav-bar ul {
+    float: right;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.nav-bar a {
+    color: white;
+    font-weight: 5px;
+    border: 1px;
+    padding: 8px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.c-active {
+    
+    opacity: 0.3 ;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.home-icon {
+    line-height: 85px;
+}
+
+.home-icon a:hover {
+    background-color: rgb(2, 2, 31);
+}
+.aside-content {
+    margin-top: 85px;
+    width: 20%;
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+    float: left;
+    background-color: rgb(244, 238, 238);
+}
+
+.aside-content h3 {
+    padding: 10px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.aside-content a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(2, 2, 31);
+}
+
+.aside-content h3:hover {
+    background-color: rgb(2, 2, 31);
+    color: white;
+    box-shadow: 3px 3px 3px rgb(2, 2, 31);
+}
+
+.c-language {
+    width: 70%;
+    height: auto;
+    margin-top: 150px;
+    padding-left: 25%;
+    float: left;
+    line-height: 25px;
+}
+
+span {
+    font-size: 17px;
+    color: rgb(2, 2, 31);
+    text-decoration: underline;
+}
+
+pre {
+    font-family: cursive;
+}
